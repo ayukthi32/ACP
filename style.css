@@ -1,0 +1,87 @@
+html {
+    height: 100%;
+    width: 100%;
+
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+.topnav a {
+    float: left;
+    color: #087248;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: background-color 0.5s;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #558104;
+    color: white;
+}
+
+.myslide {height: 750px;
+    width: 100%;
+}
+
+.footer {
+    positon: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    text-align: center;
+
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+    transition: background-color 0.6s;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #c8bb89;
+}
+
+.cover {
+    background-image: url('image3.jpg');
+    height: 400px;
+    position: relative;opacity: 0.5;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    .section {
+        text-align: center;
+        padding: 50px 80px;
+        background-color: #030338;
+        color: #dbd2d2;
+    }
+    
+    .ptext {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: 27px;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+        background-color: transparent;
+        color: #4e0404;
+        padding: 20px;
+    }
